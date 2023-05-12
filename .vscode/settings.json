@@ -1,6 +1,22 @@
 {
+    "files.autoSave": "afterDelay",
+    "diffEditor.wordWrap": "on",
     "[python]": {
-        "editor.defaultFormatter": "ms-python.black-formatter"
+        "editor.formatOnType": true
     },
-    "python.formatting.provider": "none"
+    "terminal.integrated.tabs.enabled": false,
+    "terminal.integrated.autoReplies": {
+        
+    },
+    "explorer.compactFolders": false,
+    "code-runner.runInTerminal": true,
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.executorMap": {
+        "python": "clear ; py -u",
+    },
+    "workbench.colorTheme": "OM Theme (Default Dracula Italic)",
+    "workbench.iconTheme": "material-icon-theme",
+    "python.defaultInterpreterPath": "python"
+
+    
 }
